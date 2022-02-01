@@ -108,7 +108,7 @@
     <ul class="list-group">
       <li class="list-group-item"><strong>Comment:</strong> Menu to test new LLP Displaced Jets feature.</li>
       <li class="list-group-item"><strong>Firmware UUID:</strong> 00000000-0000-0000-0000-000000000000</li>
-      <li class="list-group-item"><strong>Menu UUID:</strong> 24661eb2-06e2-4a1b-9f45-f96702e8c191</li>
+      <li class="list-group-item"><strong>Menu UUID:</strong> 7795c84c-25b9-49cc-8db5-67ee5ff5afe7</li>
       <li class="list-group-item"><strong>Grammar Version:</strong> 0.10</li>
       <li class="list-group-item"><strong>Scale Set:</strong> scales_2021_03_02</li>
       <li class="list-group-item"><strong>External Signals Set:</strong> L1ExternalConditionsCabling_20180319</li>
@@ -156,6 +156,26 @@
       <tr>
         <td><a href=#L1_SingleJetDISP60_FWD3p0>5</a></td>
         <td><a href=#L1_SingleJetDISP60_FWD3p0>L1_SingleJetDISP60_FWD3p0</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href=#L1_SingleJetDISP15>6</a></td>
+        <td><a href=#L1_SingleJetDISP15>L1_SingleJetDISP15</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href=#L1_SingleJetDISP30>7</a></td>
+        <td><a href=#L1_SingleJetDISP30>L1_SingleJetDISP30</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href=#L1_SingleJetDISP45>8</a></td>
+        <td><a href=#L1_SingleJetDISP45>L1_SingleJetDISP45</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href=#L1_SingleJetDISP90>9</a></td>
+        <td><a href=#L1_SingleJetDISP90>L1_SingleJetDISP90</a></td>
         <td></td>
       </tr>
     </table>
@@ -453,6 +473,174 @@
         </ul>
       </div>
     </div>
+    <hr />
+    <a class="anchor" name="L1_SingleJetDISP15"></a>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3>6 L1_SingleJetDISP15 <span class="informative">(Module 0)</span></h3>
+      </div>
+      <div class="panel-body">
+        <p><strong>Logical Expression</strong></p>
+        <p><pre class="expression">JET15[JET-DISP_LLP]</pre></p>
+
+        <p><strong>VHDL Expression</strong></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_single_jet_disp15</span> <span class="vhdlop"><=</span> <span class="vhdlsig">single_jet_i6</span></pre></p>
+
+        <p><strong>Conditions</strong></p>
+        <ul>
+        <li><strong>JET15[JET-DISP_LLP]</strong> : <code>single_jet_i6</code>
+          <ul>
+            <li>Object: JET15
+              <ul>
+                <li>
+                  
+                    Threshold: 15.0 GeV
+                    : <code>0x1e</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Displaced: <a href="#JET-DISP_LLP">JET-DISP_LLP</a>:
+                    <code>1</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+          </ul>
+          <ul>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <a class="anchor" name="L1_SingleJetDISP30"></a>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3>7 L1_SingleJetDISP30 <span class="informative">(Module 0)</span></h3>
+      </div>
+      <div class="panel-body">
+        <p><strong>Logical Expression</strong></p>
+        <p><pre class="expression">JET30[JET-DISP_LLP]</pre></p>
+
+        <p><strong>VHDL Expression</strong></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_single_jet_disp30</span> <span class="vhdlop"><=</span> <span class="vhdlsig">single_jet_i7</span></pre></p>
+
+        <p><strong>Conditions</strong></p>
+        <ul>
+        <li><strong>JET30[JET-DISP_LLP]</strong> : <code>single_jet_i7</code>
+          <ul>
+            <li>Object: JET30
+              <ul>
+                <li>
+                  
+                    Threshold: 30.0 GeV
+                    : <code>0x3c</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Displaced: <a href="#JET-DISP_LLP">JET-DISP_LLP</a>:
+                    <code>1</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+          </ul>
+          <ul>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <a class="anchor" name="L1_SingleJetDISP45"></a>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3>8 L1_SingleJetDISP45 <span class="informative">(Module 0)</span></h3>
+      </div>
+      <div class="panel-body">
+        <p><strong>Logical Expression</strong></p>
+        <p><pre class="expression">JET45[JET-DISP_LLP]</pre></p>
+
+        <p><strong>VHDL Expression</strong></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_single_jet_disp45</span> <span class="vhdlop"><=</span> <span class="vhdlsig">single_jet_i8</span></pre></p>
+
+        <p><strong>Conditions</strong></p>
+        <ul>
+        <li><strong>JET45[JET-DISP_LLP]</strong> : <code>single_jet_i8</code>
+          <ul>
+            <li>Object: JET45
+              <ul>
+                <li>
+                  
+                    Threshold: 45.0 GeV
+                    : <code>0x5a</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Displaced: <a href="#JET-DISP_LLP">JET-DISP_LLP</a>:
+                    <code>1</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+          </ul>
+          <ul>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <a class="anchor" name="L1_SingleJetDISP90"></a>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3>9 L1_SingleJetDISP90 <span class="informative">(Module 0)</span></h3>
+      </div>
+      <div class="panel-body">
+        <p><strong>Logical Expression</strong></p>
+        <p><pre class="expression">JET90[JET-DISP_LLP]</pre></p>
+
+        <p><strong>VHDL Expression</strong></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_single_jet_disp90</span> <span class="vhdlop"><=</span> <span class="vhdlsig">single_jet_i9</span></pre></p>
+
+        <p><strong>Conditions</strong></p>
+        <ul>
+        <li><strong>JET90[JET-DISP_LLP]</strong> : <code>single_jet_i9</code>
+          <ul>
+            <li>Object: JET90
+              <ul>
+                <li>
+                  
+                    Threshold: 90.0 GeV
+                    : <code>0xb4</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Displaced: <a href="#JET-DISP_LLP">JET-DISP_LLP</a>:
+                    <code>1</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+          </ul>
+          <ul>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
 
     <a name="cuts"></a>
 
@@ -504,7 +692,7 @@
     </table>
 
     <footer class="footer">
-      <p>Generated by tm-reporter v2.10.1 on 2022-02-01 08:12:53.</p>
+      <p>Generated by tm-reporter v2.10.1 on 2022-02-01 09:53:21.</p>
     </fooer>
 
   </main><!-- /container -->
