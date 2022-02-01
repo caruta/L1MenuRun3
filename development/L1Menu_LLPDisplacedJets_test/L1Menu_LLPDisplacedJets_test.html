@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta content="text/html" charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>L1Menu_LLPDisplacedJets_test</title>
+  <meta name="description" content="Menu to test new LLP Displaced Jets feature.">
+  <meta name="generator" content="tm-reporter 2.10.1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  <!-- style customizations -->
+  <style>
+    /* Fixing anchor offset for fixed top navbar */
+    h1:before,
+    h2:before {
+        height: 38px;
+        content: "";
+        display:block;
+    }
+    a.anchor {
+      visibility:hidden;
+      position:relative;
+      top:-68px;
+    }
+    .panel-heading h3 {
+        margin-top: .1em;
+        margin-bottom: .1em;
+    }
+    .panel-heading a.top {
+        float: right;
+    }
+    pre .curl {
+        font-weight: bold;
+    }
+    pre .cut {
+        color: darkmagenta;
+    }
+    pre .function {
+        font-weight: bold;
+        color: darkblue;
+    }
+    pre .keyword {
+        font-weight: bold;
+        color: blue;
+    }
+    pre .vhdlop {
+        font-weight: bold;
+        color: darkmagenta;
+    }
+    pre .vhdlsig {
+        color: brown;
+    }
+    .vhdl,
+    .expression {
+        white-space: normal;
+        word-wrap: normal;
+        word-break: keep-all;
+    }
+    .informative {
+        font-size: .9em;
+        color: darkgray;
+    }
+    h3 .informative {
+        font-size: .6em;
+    }
+    .footer {
+        float: right;
+        font-size: .9em;
+        color: darkgray;
+    }
+  </style>
+</head>
+<body role="document">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class=""><a href="#top"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Top</span></a></li>
+          <li class=""><a href="#algorithms"><span class="glyphicon glyphicon-list" aria-hidden="true"></span> Algorithms</span></a></li>
+          <li class=""><a href="#cuts"><span class="glyphicon glyphicon-scissors" aria-hidden="true"></span> Cuts</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <a name="top"></a>
+
+    <header class="page-header">
+      <h1>L1Menu_LLPDisplacedJets_test</h1>
+    </header>
+
+
+    <div class="alert alert-info" role="alert"><strong><span class="glyphicon glyphicon-exclamation-sign"></span></strong> This document was generated from an intermediate development snapshot.</div>
+
+
+    <ul class="list-group">
+      <li class="list-group-item"><strong>Comment:</strong> Menu to test new LLP Displaced Jets feature.</li>
+      <li class="list-group-item"><strong>Firmware UUID:</strong> 00000000-0000-0000-0000-000000000000</li>
+      <li class="list-group-item"><strong>Menu UUID:</strong> 24661eb2-06e2-4a1b-9f45-f96702e8c191</li>
+      <li class="list-group-item"><strong>Grammar Version:</strong> 0.10</li>
+      <li class="list-group-item"><strong>Scale Set:</strong> scales_2021_03_02</li>
+      <li class="list-group-item"><strong>External Signals Set:</strong> L1ExternalConditionsCabling_20180319</li>
+      <li class="list-group-item"><strong>Labels:</strong> </li>
+    </ul>
+    <hr />
+
+    <a name="algorithms"></a>
+
+    <header class="page-header">
+      <h2>Algorithms</h2>
+    </header>
+
+    <table class="table">
+      <tr>
+        <th>Index</th>
+        <th>Name</th>
+        <th>Labels</th>
+      </tr>
+      <tr>
+        <td><a href=#L1_SingleJetDISP>0</a></td>
+        <td><a href=#L1_SingleJetDISP>L1_SingleJetDISP</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href=#L1_SingleJetDISP60>1</a></td>
+        <td><a href=#L1_SingleJetDISP60>L1_SingleJetDISP60</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href=#L1_SingleJetDISPer2p4>2</a></td>
+        <td><a href=#L1_SingleJetDISPer2p4>L1_SingleJetDISPer2p4</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href=#L1_SingleJetDISP60er2p4>3</a></td>
+        <td><a href=#L1_SingleJetDISP60er2p4>L1_SingleJetDISP60er2p4</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href=#L1_SingleJetDISP_FWD3p0>4</a></td>
+        <td><a href=#L1_SingleJetDISP_FWD3p0>L1_SingleJetDISP_FWD3p0</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href=#L1_SingleJetDISP60_FWD3p0>5</a></td>
+        <td><a href=#L1_SingleJetDISP60_FWD3p0>L1_SingleJetDISP60_FWD3p0</a></td>
+        <td></td>
+      </tr>
+    </table>
+    <hr />
+    <a class="anchor" name="L1_SingleJetDISP"></a>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3>0 L1_SingleJetDISP <span class="informative">(Module 0)</span></h3>
+      </div>
+      <div class="panel-body">
+        <p><strong>Logical Expression</strong></p>
+        <p><pre class="expression">JET0[JET-DISP_LLP]</pre></p>
+
+        <p><strong>VHDL Expression</strong></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_single_jet_disp</span> <span class="vhdlop"><=</span> <span class="vhdlsig">single_jet_i0</span></pre></p>
+
+        <p><strong>Conditions</strong></p>
+        <ul>
+        <li><strong>JET0[JET-DISP_LLP]</strong> : <code>single_jet_i0</code>
+          <ul>
+            <li>Object: JET0
+              <ul>
+                <li>
+                  
+                    Threshold: 0.0 GeV
+                    : <code>0x0</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Displaced: <a href="#JET-DISP_LLP">JET-DISP_LLP</a>:
+                    <code>1</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+          </ul>
+          <ul>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <a class="anchor" name="L1_SingleJetDISP60"></a>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3>1 L1_SingleJetDISP60 <span class="informative">(Module 0)</span></h3>
+      </div>
+      <div class="panel-body">
+        <p><strong>Logical Expression</strong></p>
+        <p><pre class="expression">JET60[JET-DISP_LLP]</pre></p>
+
+        <p><strong>VHDL Expression</strong></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_single_jet_disp60</span> <span class="vhdlop"><=</span> <span class="vhdlsig">single_jet_i1</span></pre></p>
+
+        <p><strong>Conditions</strong></p>
+        <ul>
+        <li><strong>JET60[JET-DISP_LLP]</strong> : <code>single_jet_i1</code>
+          <ul>
+            <li>Object: JET60
+              <ul>
+                <li>
+                  
+                    Threshold: 60.0 GeV
+                    : <code>0x78</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Displaced: <a href="#JET-DISP_LLP">JET-DISP_LLP</a>:
+                    <code>1</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+          </ul>
+          <ul>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <a class="anchor" name="L1_SingleJetDISPer2p4"></a>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3>2 L1_SingleJetDISPer2p4 <span class="informative">(Module 0)</span></h3>
+      </div>
+      <div class="panel-body">
+        <p><strong>Logical Expression</strong></p>
+        <p><pre class="expression">JET0[JET-DISP_LLP, JET-ETA_2p4]</pre></p>
+
+        <p><strong>VHDL Expression</strong></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_single_jet_dis_per2p4</span> <span class="vhdlop"><=</span> <span class="vhdlsig">single_jet_i2</span></pre></p>
+
+        <p><strong>Conditions</strong></p>
+        <ul>
+        <li><strong>JET0[JET-DISP_LLP, JET-ETA_2p4]</strong> : <code>single_jet_i2</code>
+          <ul>
+            <li>Object: JET0
+              <ul>
+                <li>
+                  
+                    Threshold: 0.0 GeV
+                    : <code>0x0</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Displaced: <a href="#JET-DISP_LLP">JET-DISP_LLP</a>:
+                    <code>1</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p4">JET-ETA_2p4</a> [-2.392, 2.392]
+                    : <code>[0xc9, 0x36]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+          </ul>
+          <ul>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <a class="anchor" name="L1_SingleJetDISP60er2p4"></a>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3>3 L1_SingleJetDISP60er2p4 <span class="informative">(Module 0)</span></h3>
+      </div>
+      <div class="panel-body">
+        <p><strong>Logical Expression</strong></p>
+        <p><pre class="expression">JET60[JET-DISP_LLP, JET-ETA_2p4]</pre></p>
+
+        <p><strong>VHDL Expression</strong></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_single_jet_disp60er2p4</span> <span class="vhdlop"><=</span> <span class="vhdlsig">single_jet_i3</span></pre></p>
+
+        <p><strong>Conditions</strong></p>
+        <ul>
+        <li><strong>JET60[JET-DISP_LLP, JET-ETA_2p4]</strong> : <code>single_jet_i3</code>
+          <ul>
+            <li>Object: JET60
+              <ul>
+                <li>
+                  
+                    Threshold: 60.0 GeV
+                    : <code>0x78</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Displaced: <a href="#JET-DISP_LLP">JET-DISP_LLP</a>:
+                    <code>1</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p4">JET-ETA_2p4</a> [-2.392, 2.392]
+                    : <code>[0xc9, 0x36]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+          </ul>
+          <ul>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <a class="anchor" name="L1_SingleJetDISP_FWD3p0"></a>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3>4 L1_SingleJetDISP_FWD3p0 <span class="informative">(Module 0)</span></h3>
+      </div>
+      <div class="panel-body">
+        <p><strong>Logical Expression</strong></p>
+        <p><pre class="expression">JET0[JET-DISP_LLP, JET-ETA_FWD_3p00_NEG, JET-ETA_FWD_3p00_POS]</pre></p>
+
+        <p><strong>VHDL Expression</strong></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_single_jet_disp_fwd3p0</span> <span class="vhdlop"><=</span> <span class="vhdlsig">single_jet_i4</span></pre></p>
+
+        <p><strong>Conditions</strong></p>
+        <ul>
+        <li><strong>JET0[JET-DISP_LLP, JET-ETA_FWD_3p00_NEG, JET-ETA_FWD_3p00_POS]</strong> : <code>single_jet_i4</code>
+          <ul>
+            <li>Object: JET0
+              <ul>
+                <li>
+                  
+                    Threshold: 0.0 GeV
+                    : <code>0x0</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Displaced: <a href="#JET-DISP_LLP">JET-DISP_LLP</a>:
+                    <code>1</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_FWD_3p00_NEG">JET-ETA_FWD_3p00_NEG</a> [-5.0, -3.001]
+                    : <code>[0x8d, 0xba]</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_FWD_3p00_POS">JET-ETA_FWD_3p00_POS</a> [3.001, 5.0]
+                    : <code>[0x45, 0x72]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+          </ul>
+          <ul>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <a class="anchor" name="L1_SingleJetDISP60_FWD3p0"></a>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3>5 L1_SingleJetDISP60_FWD3p0 <span class="informative">(Module 0)</span></h3>
+      </div>
+      <div class="panel-body">
+        <p><strong>Logical Expression</strong></p>
+        <p><pre class="expression">JET60[JET-DISP_LLP, JET-ETA_FWD_3p00_NEG, JET-ETA_FWD_3p00_POS]</pre></p>
+
+        <p><strong>VHDL Expression</strong></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_single_jet_disp60_fwd3p0</span> <span class="vhdlop"><=</span> <span class="vhdlsig">single_jet_i5</span></pre></p>
+
+        <p><strong>Conditions</strong></p>
+        <ul>
+        <li><strong>JET60[JET-DISP_LLP, JET-ETA_FWD_3p00_NEG, JET-ETA_FWD_3p00_POS]</strong> : <code>single_jet_i5</code>
+          <ul>
+            <li>Object: JET60
+              <ul>
+                <li>
+                  
+                    Threshold: 60.0 GeV
+                    : <code>0x78</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Displaced: <a href="#JET-DISP_LLP">JET-DISP_LLP</a>:
+                    <code>1</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_FWD_3p00_NEG">JET-ETA_FWD_3p00_NEG</a> [-5.0, -3.001]
+                    : <code>[0x8d, 0xba]</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_FWD_3p00_POS">JET-ETA_FWD_3p00_POS</a> [3.001, 5.0]
+                    : <code>[0x45, 0x72]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+          </ul>
+          <ul>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+
+    <a name="cuts"></a>
+
+    <header class="page-header">
+      <h2>Cuts</h2>
+    </header>
+
+    <table class="table">
+      <tr>
+        <th>Name</th>
+        <th>Minimum</th>
+        <th>Maximum</th>
+        <th>Minimum (hw/emu)</th>
+        <th>Maximum (hw/emu)</th>
+        <th>Data (hw/emu)</th>
+      </tr>
+      <tr>
+        <td><a class="anchor" name="JET-ETA_2p4"></a> JET-ETA_2p4</td>
+        <td>-2.392</td>
+        <td>2.392</td>
+        <td><code>-2.392</code></td>
+        <td><code>2.392</code></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="anchor" name="JET-ETA_FWD_3p00_NEG"></a> JET-ETA_FWD_3p00_NEG</td>
+        <td>-5.0</td>
+        <td>-3.001</td>
+        <td><code>-5.0</code></td>
+        <td><code>-3.001</code></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="anchor" name="JET-ETA_FWD_3p00_POS"></a> JET-ETA_FWD_3p00_POS</td>
+        <td>3.001</td>
+        <td>5.0</td>
+        <td><code>3.001</code></td>
+        <td><code>5.0</code></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="anchor" name="JET-DISP_LLP"></a> JET-DISP_LLP</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><code>0x0001</code></td>
+      </tr>
+    </table>
+
+    <footer class="footer">
+      <p>Generated by tm-reporter v2.10.1 on 2022-02-01 08:12:53.</p>
+    </fooer>
+
+  </main><!-- /container -->
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</body>
+</html>
