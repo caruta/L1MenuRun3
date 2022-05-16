@@ -39,15 +39,24 @@
      - L1_LooseIsoEG22er2p1_IsoTau26er2p1_dR_Min0p3 (bit 257)
      - L1_LooseIsoEG24er2p1_IsoTau27er2p1_dR_Min0p3 (bit 258)
      - L1_L1_LooseIsoEG22er2p1_Tau70er2p1_dR_Min0p3 (bit 259)
+     
+* 1.50E+34 => EG (opt4): 
+     - L1_SingleLooseIsoEG28er2p5 (bit 178)
+     - L1_SingleLooseIsoEG28er2p1 (bit 179) 
+     - L1_SingleLooseIsoEG30er2p5 (bit 181)
+     - L1_SingleIsoEG28er2p5 (bit 189)
+     - L1_SingleIsoEG28er2p1 (bit 190)
+     - L1_SingleIsoEG28er1p5 (bit 191)
+     - L1_SingleIsoEG30er2p5 (bit 192)
+     - L1_DoubleEG_LooseIso22_12_er2p5 (bit 214)
+     - L1_LooseIsoEG26er2p1_HTT100er (bit 239)
 
-* 1.50E+34 => TAU
+* 1.40E+34 => TAU
     Seeds disabled:
     - L1_DoubleIsoTau32er2p1 (bit 271) 
-    - L1_DoubleIsoTau34er2p1 (bit 272) 
 
-* 1.40E+34 => JETMET
+* 1.30E+34 => JETMET
     Seeds disabled:
-    - L1_HTT360er (bit 404) 
     - L1_SingleJet180 (bit 313) 
     - L1_SingleJet180er2p5 (bit 322) 
     - L1_DoubleJet150er2p5 (bit 343) 
@@ -55,9 +64,12 @@
     - L1_DoubleJet_110_35_DoubleJet35_Mass_Min620 (bit 357) 
     - L1_TripleJet_95_75_65_DoubleJet_75_65_er2p5 (bit 372) 
     - L1_HTT320er_QuadJet_70_55_40_40_er2p4 (bit 385) 
+    - L1_HTT360er (bit 404) 
     
-* 1.30E+34 => ALL: 1.90E+34 + 1.80E+34 + 1.50E+34 + 1.40E+34
+* 1.20E+34 => ALL: 1.90E+34 + 1.80E+34 + 1.40E+34 + 1.30E+34
 
-* 1.20E+34 => ALL: 1.90E+34 + 1.70E+34 + 1.50E+34 + 1.40E+34
+* 1.10E+34 => ALL: 1.90E+34 + 1.70E+34 + 1.40E+34 + 1.30E+34
 
-* 1.10E+34 => ALL: 1.90E+34 + 1.60E+34 + 1.50E+34 + 1.40E+34
+* 1.0E+34 => ALL: 1.90E+34 + 1.60E+34 + 1.40E+34 + 1.30E+34
+
+* 9.00E+33 => ALL: 1.90E+34 + 1.50E+34 + 1.40E+34 + 1.30E+34
