@@ -1,0 +1,13 @@
+Index,Name,Emergency,2.2E+34,2E+34,1.7E+34,1.5E+34,1.3E+34,1.1E+34,9E+33,6E+33
+0,L1_TripleMu_2SQ_1p5SQ_0OQ_Mass_Max12,0,1,1,1,1,1,1,1,1
+1,L1_TripleMu_3SQ_2p5SQ_0OQ_Mass_Max12,0,1,1,1,1,1,1,1,1
+2,L1_TripleMu_2SQ_1p5SQ_0OQ_OS_Mass_Max12,0,1,1,1,1,1,1,1,1
+3,L1_TripleMu_3SQ_2p5SQ_0OQ_OS_Mass_Max12,0,1,1,1,1,1,1,1,1
+4,L1_TripleMu_2SQ_1p5SQ_0OQ_Mass_Max50,0,1,1,1,1,1,1,1,1
+5,L1_TripleMu_2SQ_1p5SQ_0OQ_OS_Mass_Max50,0,1,1,1,1,1,1,1,1
+6,L1_TripleMu_2SQ_1p5SQ_0OQ_Mass_Max100,0,1,1,1,1,1,1,1,1
+7,L1_TripleMu_2SQ_1p5SQ_0OQ_OS_Mass_Max100,0,1,1,1,1,1,1,1,1
+8,L1_TripleMu_50SQ_50SQ_0OQ_Mass_Max100,0,1,1,1,1,1,1,1,1
+9,L1_TripleMu_50SQ_50SQ_0OQ_OS_Mass_Max100,0,1,1,1,1,1,1,1,1
+10,L1_TripleMu_50SQ_50SQ_0OQ_Mass_Max200,0,1,1,1,1,1,1,1,1
+11,L1_TripleMu_50SQ_50SQ_0OQ_OS_Mass_Max200,0,1,1,1,1,1,1,1,1
