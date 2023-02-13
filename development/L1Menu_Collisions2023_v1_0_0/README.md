@@ -3,11 +3,13 @@
 [![online preview](https://img.shields.io/badge/Online%20preview-click%20here-blue)](https://htmlpreview.github.io/?https://github.com/caruta/L1MenuRun3/blob/master/development/L1Menu_Collisions2023_v1_0_0/L1Menu_Collisions2023_v1_0_0.html)
 
 **Comment:** 
-First version of the L1 menu for the 2023 data taking.
+First version of the L1 menu for the 2023 data taking. It will be used as a starting point for the developments and updates of the L1 menu targeting the first round of integration (March 8th).
+
+<br/>
 
 The following changes, from the last menu of 2022 ("L1Menu_Collisions2022_v1_4_0"), have been done:
 
-#### Seeds for the Tau3mu search [CMSLITDPG-960](https://its.cern.ch/jira/browse/CMSLITDPG-960)
+#### Seeds for the Tau3mu search ([CMSLITDPG-960](https://its.cern.ch/jira/browse/CMSLITDPG-960))
    - Removed the seeds included in 2022: 
       - L1_TripleMu_2SQ_1p5SQ_0OQ (bit 74) 
       - L1_TripleMu_2SQ_1p5SQ_0OQ_Mass_Max12 (bit 82)
